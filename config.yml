@@ -1,0 +1,13 @@
+debug: "true"
+dbpath: "./dbpath"
+server:
+  httpauth:
+    enabled: "true"
+    username: "admin"
+    password: "123456"
+  addr: ":11313"
+
+log:
+  level: "debug"
+  filepath: "./dbpath/log/app.log"
+  format: ""
